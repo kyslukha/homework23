@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="ua.com.alevel.model.Category" table="category">
+        <id name="categoryId" column="category_id" >
+            <generator class="identity"/>
+        </id>
+        <property name="categoryName" column="category_name"/>
+
+    </class>
+</hibernate-mapping>
